@@ -71,5 +71,16 @@
         </dependency>
     </dependencies>
 
-
+    <distributionManagement>
+        <repository>
+        <id>deployment</id>
+            <name>release time</name>
+            <url>http://13.126.31.251:8081/repository/Sampl_rel/</url>
+        </repository>
+             <snapshotRepository>
+        <id>deployment</id>
+            <name>snapshot time</name>
+            <url>http://13.126.31.251:8081/repository/sampl_snap/</url>
+        </repository>
+    </distributionManagement>
 </project>
